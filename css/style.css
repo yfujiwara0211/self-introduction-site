@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Gothic');
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+header {
+    background-color: rgb(39, 35, 67, 0.8);
+    height: 60px;
+    width: 100%;
+    position: fixed;            
+    top: 0;            
+    z-index: 10;
+}
+
+li {
+    list-style: none;
+}
+
+.header-left {
+    font-size: 24px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    float: left;
+    margin: 15px 15px 15px 30px;
+    color: white;
+}
+
+.top-wrapper {
+    background-image: url(/AdobeStock_281118429.jpeg);
+    background-size: cover;
+    padding: 200px 0px 100px 0px;
+    color: #222831;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 40px;
+}
+
+.profile-photo img{
+    float: left;
+    margin: 20px 60px 20px 40px;
+    width: 20%;
+}
+
+.middle-wrapper {
+    margin: 40px;
+}
+
+.text-content {
+    padding-top: 100px;
+}
+
+.affiliation {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pablications {
+    padding: 20px 0px;
+}
+
+.btn {
+    font: white;
+    padding: 8px 24px;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+.btn:hover {
+    opacity: 1;
+ }
+  
+.paper {
+    margin-top: 5px;
+    background-color: #D6E4F0;
+    color: #163172;
+}
+
+footer p {
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+footer {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
